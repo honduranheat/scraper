@@ -3,13 +3,12 @@ const bodyParser = require("body-parser");
 const logger = require("morgan");
 const handlebars = require('express-handlebars');
 const mongoose = require("mongoose");
-var PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 // const scrapeRouter = require('./routes/scrape');
 
 const axios = require("axios");
 const cheerio = require("cheerio");
 const db = require("./models");
-const PORT = 3000;
 const app = express();
 
 
